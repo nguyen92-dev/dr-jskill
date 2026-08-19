@@ -1,0 +1,111 @@
+{
+  "source_repository": "nguyen92-dev/dr-jskill",
+  "source_ref": "main",
+  "source_commit": "55bbcc5f81ab19a431e11ef236e65cac9f06cf4b",
+  "strategy": "overlay-preserves-upstream-references",
+  "upstream_references": [
+    {
+      "path": "references/ANGULAR.md",
+      "sha": "e0374d2dab766489cbb03d8e1305310a9f1c05e5",
+      "size": 31528,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/AZURE.md",
+      "sha": "3dde9f5d8e082656b12e42e50b047649b339382e",
+      "size": 34430,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/CONFIGURATION.md",
+      "sha": "f2cedde58c332b0dc2b8b41449dc26b0fea55570",
+      "size": 17744,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/DATABASE.md",
+      "sha": "bbcf44b35b7eeac26ce59f873777d603a2b8c1e4",
+      "size": 11029,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/DOCKER.md",
+      "sha": "061bd8febf5d3268169dca57f07c65582601636c",
+      "size": 26496,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/GIT.md",
+      "sha": "0d3f93ebd608e585663c7017a61ff56d54071f2f",
+      "size": 10168,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/GRAALVM.md",
+      "sha": "318521830c8324908e40430815ea26a4f7a928a8",
+      "size": 18655,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/JDTLS.md",
+      "sha": "2404b8c8e3d3a8426ee53c9a8bb887def082aeb2",
+      "size": 7447,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/LOGGING.md",
+      "sha": "6ba829500aa771f758e1324cafeb6cbb58e2aa4f",
+      "size": 14141,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/PROJECT-SETUP.md",
+      "sha": "72204b914a6c93a26717e4c2987b1beebc6917a0",
+      "size": 18031,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/REACT.md",
+      "sha": "f5b5cf7e98e5e13026d8424ce99bd19d438cede1",
+      "size": 30008,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/SECURITY.md",
+      "sha": "63062e402d56ecf54bf3594f604b1124afc5e5fe",
+      "size": 26180,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/SPRING-BOOT-4.md",
+      "sha": "b5c74a8644d0ac208adaf1e3a551b350ccb264c4",
+      "size": 33665,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/TEST.md",
+      "sha": "4b95169ba39aa343085c0d9858e3d91583522da4",
+      "size": 29025,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/VANILLA-JS.md",
+      "sha": "d8d4ccc2a89489e2847d145c45fc95c9a131ad25",
+      "size": 31816,
+      "expected_to_remain_in_target_repo": true
+    },
+    {
+      "path": "references/VUE.md",
+      "sha": "35388b92bed5ed80ab9cd9944ab0ec70f34570c2",
+      "size": 32374,
+      "expected_to_remain_in_target_repo": true
+    }
+  ],
+  "new_references": [
+    "references/skill-pack/DATABASE-POLICY.md",
+    "references/skill-pack/SECURITY-POLICY.md",
+    "references/skill-pack/FRONTEND-POLICY.md",
+    "references/skill-pack/REDIS.md",
+    "references/skill-pack/ELASTICSEARCH.md"
+  ]
+}
