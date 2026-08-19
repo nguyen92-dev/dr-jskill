@@ -25,6 +25,21 @@ This gives two separate responsibilities:
 - Flyway changes the schema;
 - Hibernate validates entity/schema compatibility.
 
+### Dependencies
+
+Use this sample dependencies for flyway, find other dependency for database if do not use postgresql
+
+```text
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-flyway</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-database-postgresql</artifactId>
+        </dependency>
+```
+
 ### Prototype or disposable local development
 
 `ddl-auto=update` is acceptable when explicitly chosen for speed and when schema history/rollback/auditability are not requirements.
